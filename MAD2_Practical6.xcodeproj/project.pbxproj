@@ -15,6 +15,8 @@
 		87EC8EBE2395E9E70010F653 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87EC8EBC2395E9E70010F653 /* LaunchScreen.storyboard */; };
 		87EC8EC92395E9E70010F653 /* MAD2_Practical6Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EC8EC82395E9E70010F653 /* MAD2_Practical6Tests.swift */; };
 		87EC8ED42395E9E70010F653 /* MAD2_Practical6UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EC8ED32395E9E70010F653 /* MAD2_Practical6UITests.swift */; };
+		87EC8EE22395EA2E0010F653 /* Content.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87EC8EE12395EA2E0010F653 /* Content.storyboard */; };
+		A910EB778732719B53338CA5 /* libPods-MAD2_Practical6.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 352A123A480230BA60EDEE13 /* libPods-MAD2_Practical6.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		352A123A480230BA60EDEE13 /* libPods-MAD2_Practical6.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MAD2_Practical6.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		87EC8EAE2395E9E60010F653 /* MAD2_Practical6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MAD2_Practical6.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87EC8EB12395E9E60010F653 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		87EC8EB32395E9E60010F653 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +52,9 @@
 		87EC8ECF2395E9E70010F653 /* MAD2_Practical6UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MAD2_Practical6UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		87EC8ED32395E9E70010F653 /* MAD2_Practical6UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MAD2_Practical6UITests.swift; sourceTree = "<group>"; };
 		87EC8ED52395E9E70010F653 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87EC8EE12395EA2E0010F653 /* Content.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Content.storyboard; sourceTree = "<group>"; };
+		9B2BF9AF083611C4D06CA6EC /* Pods-MAD2_Practical6.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MAD2_Practical6.release.xcconfig"; path = "Target Support Files/Pods-MAD2_Practical6/Pods-MAD2_Practical6.release.xcconfig"; sourceTree = "<group>"; };
+		C666A0CD6C11FAF6A2F58FD7 /* Pods-MAD2_Practical6.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MAD2_Practical6.debug.xcconfig"; path = "Target Support Files/Pods-MAD2_Practical6/Pods-MAD2_Practical6.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A910EB778732719B53338CA5 /* libPods-MAD2_Practical6.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +83,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3303CCBAA34F9F945A254288 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C666A0CD6C11FAF6A2F58FD7 /* Pods-MAD2_Practical6.debug.xcconfig */,
+				9B2BF9AF083611C4D06CA6EC /* Pods-MAD2_Practical6.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4DB96AEC5ADFDAB07DA28668 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				352A123A480230BA60EDEE13 /* libPods-MAD2_Practical6.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		87EC8EA52395E9E60010F653 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +108,8 @@
 				87EC8EC72395E9E70010F653 /* MAD2_Practical6Tests */,
 				87EC8ED22395E9E70010F653 /* MAD2_Practical6UITests */,
 				87EC8EAF2395E9E60010F653 /* Products */,
+				3303CCBAA34F9F945A254288 /* Pods */,
+				4DB96AEC5ADFDAB07DA28668 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +133,7 @@
 				87EC8EBA2395E9E70010F653 /* Assets.xcassets */,
 				87EC8EBC2395E9E70010F653 /* LaunchScreen.storyboard */,
 				87EC8EBF2395E9E70010F653 /* Info.plist */,
+				87EC8EE12395EA2E0010F653 /* Content.storyboard */,
 			);
 			path = MAD2_Practical6;
 			sourceTree = "<group>";
@@ -135,6 +163,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 87EC8ED82395E9E70010F653 /* Build configuration list for PBXNativeTarget "MAD2_Practical6" */;
 			buildPhases = (
+				AF87112954AE6767D9223D85 /* [CP] Check Pods Manifest.lock */,
 				87EC8EAA2395E9E60010F653 /* Sources */,
 				87EC8EAB2395E9E60010F653 /* Frameworks */,
 				87EC8EAC2395E9E60010F653 /* Resources */,
@@ -232,6 +261,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87EC8EE22395EA2E0010F653 /* Content.storyboard in Resources */,
 				87EC8EBE2395E9E70010F653 /* LaunchScreen.storyboard in Resources */,
 				87EC8EBB2395E9E70010F653 /* Assets.xcassets in Resources */,
 				87EC8EB92395E9E60010F653 /* Main.storyboard in Resources */,
@@ -253,6 +283,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AF87112954AE6767D9223D85 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MAD2_Practical6-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		87EC8EAA2395E9E60010F653 /* Sources */ = {
@@ -432,6 +487,7 @@
 		};
 		87EC8ED92395E9E70010F653 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C666A0CD6C11FAF6A2F58FD7 /* Pods-MAD2_Practical6.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -449,6 +505,7 @@
 		};
 		87EC8EDA2395E9E70010F653 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B2BF9AF083611C4D06CA6EC /* Pods-MAD2_Practical6.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

@@ -1,0 +1,6 @@
+module Pods_MAD2_Practical6 {
+  umbrella header "Pods-MAD2_Practical6-umbrella.h"
+
+  export *
+  module * { export * }
+}
